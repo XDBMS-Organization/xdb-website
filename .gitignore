@@ -1,28 +1,28 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# Hugo output directory
+/public/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Hugo resources (generated image assets, minified files, etc.)
+/resources/_gen/
 
-# Environment files
-/.env
+# Temporary files
+.DS_Store
+Thumbs.db
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# Build and cache directories
+hugo_stats.json
+*.lock
 
-# TypeScript cache
-*.tsbuildinfo
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Node-related files (if using npm/yarn for themes or pipelines)
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS or user-specific files
+*.log
+.env
