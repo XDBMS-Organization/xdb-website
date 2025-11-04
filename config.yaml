@@ -2,6 +2,10 @@ baseURL: http://something-fresh.org/
 languageCode: en-us
 title: Hugo Fresh Theme
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 module:
   # uncomment line below for local development of module
   # workspace: hugo.work
