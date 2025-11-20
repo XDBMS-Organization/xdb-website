@@ -13,22 +13,14 @@
           property="og:description"/>
     <meta content="website" property="og:type"/>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-48VHYZ7YFR"></script>
     <script>
-        // Load GA only in production (your domain)
-        if (location.hostname === "xdbms.io" || location.hostname === "www.xdbms.io") {
-          var gaScript = document.createElement("script");
-          gaScript.async = true;
-          gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-48VHYZ7YFR";
-          document.head.appendChild(gaScript);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          window.gtag = gtag;
-
-          gtag("js", new Date());
-          gtag("config", "G-48VHYZ7YFR");
-        }
+        gtag('config', 'G-48VHYZ7YFR');
     </script>
   <script type="module" crossorigin src="/assets/index-CPpEWIFh.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-CAi88RZM.css">
