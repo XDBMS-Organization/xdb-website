@@ -18,12 +18,12 @@ const Team = () => {
       icon: Award,
       title: "Recognized Innovation",
       description:
-        "Winners of the Berlin AI Startup Competition and recipients of multiple national grants.",
+        "Winners of the 2025 Berlin AI Startup Competition and recipients of multiple national grants.",
     },
   ];
 
   return (
-    <section className="py-24 bg-background">
+    <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

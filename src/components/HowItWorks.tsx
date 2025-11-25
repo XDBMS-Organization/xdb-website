@@ -33,7 +33,7 @@ const HowItWorks = () => {
             How <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span> Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A smart layer that transforms fragmented data into one coherent, intelligent infrastructure
+            A smart layer that transforms fragmented data into one coherent, and intelligent infrastructure
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

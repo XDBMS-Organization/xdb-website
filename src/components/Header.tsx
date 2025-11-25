@@ -46,6 +46,14 @@ const Header = () => {
             >
               How It Works
             </button>
+
+            <button
+              onClick={() => goToHomeAndScroll("research")}
+              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+            >
+              Publications
+            </button>
+
             <button
               onClick={() => goToHomeAndScroll("team")}
               className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"

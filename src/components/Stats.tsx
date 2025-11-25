@@ -45,6 +45,10 @@ const Stats = () => {
             </Card>
           ))}
         </div>
+
+        <p className="mt-8 text-xs text-muted-foreground text-center max-w-3xl mx-auto">
+          Performance figures above are derived from the peer-reviewed research papers of our XDB prototype.
+        </p>
       </div>
     </section>
   );
