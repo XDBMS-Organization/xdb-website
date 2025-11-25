@@ -110,8 +110,10 @@ const Legal = () => {
 
           <h3 className="text-lg font-semibold">4. Cookies and Analytics</h3>
           <p>
-            This website uses Simple Analytics. If this changes in the
-            future, we will update this Privacy Policy accordingly.
+            We use Simple Analytics to collect anonymized usage statistics.
+            Simple Analytics does not use cookies or collect personal data.
+            All data is collected in aggregate form and processed in the EU.
+            No tracking or profiling takes place.
           </p>
 
           <h3 className="text-lg font-semibold">5. Your Rights</h3>
