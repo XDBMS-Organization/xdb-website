@@ -110,7 +110,7 @@ const Legal = () => {
 
           <h3 className="text-lg font-semibold">4. Cookies and Analytics</h3>
           <p>
-            This website does not use cookies or analytics tools. If this changes in the
+            This website uses Simple Analytics. If this changes in the
             future, we will update this Privacy Policy accordingly.
           </p>
 
